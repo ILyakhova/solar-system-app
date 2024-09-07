@@ -1,10 +1,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: siddharth67/solar-system
+  tag: "v9"
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"  # Додано тег latest для іміджу
+
 
 imagePullSecrets: []
 nameOverride: ""
