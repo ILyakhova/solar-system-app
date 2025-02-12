@@ -36,7 +36,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP  # Можливо, ви захочете змінити тип сервісу, наприклад, на LoadBalancer
+  type: NodePort  # Можливо, ви захочете змінити тип сервісу, наприклад, на LoadBalancer
   port: 80
 
 ingress:
